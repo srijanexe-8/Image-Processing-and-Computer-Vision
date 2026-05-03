@@ -1,0 +1,17 @@
+Develop a program to perform sampling and quantization on a given image. Visualize the effects of different sampling rates and quantization levels on image quality.
+# Theory
+Sampling is the process of reducing the spatial resolution of an image by selecting a subset of pixels from the original image.
+•	High sampling rate → more pixels → better spatial detail
+ •	Low sampling rate → fewer pixels → loss of fine details (aliasing)
+ Sampling affects the spatial resolution of the image.
+Quantization is the process of reducing the number of intensity levels used to represent pixel values.
+ •	High quantization levels → smooth intensity transitions
+ •	Low quantization levels → visible intensity jumps (false contouring)
+Quantization affects the gray-level resolution of the image.
+
+# Algorithm
+1.	Read the input image.
+2.	Convert the image to grayscale.
+3.	Perform sampling by down sampling the image at different rates.
+4.	Perform quantization using different gray-level values.
+5.	Display original and processed images for comparison.
