@@ -1,0 +1,30 @@
+Experiment 1: 
+Implement a program to acquire and display an image. Demonstrate the process of image sensing and acquisition, and explain the components involved in an image processing system
+# Theory:
+Image Sensing and Acquisition: Image acquisition is the first and fundamental step in digital image processing. It involves capturing a real-world scene using a sensing device and converting it into a digital image suitable for computer processing.
+
+The process consists of:
+1.Illumination of the scene
+2.Sensing of reflected or transmitted energy
+3.Conversion of energy into electrical signals
+4.Digitization of signals into pixel values
+
+Image Acquisition Process:
+1. Illumination Source
+Provides energy (visible light, infrared, X-ray, etc.) to illuminate the object.
+2. Object/Scene
+Reflects or transmits the incident energy.
+3.Image Sensor
+Captures the reflected energy using devices such as: CCD (Charge Coupled Device)	CMOS (Complementary Metal Oxide Semiconductor)
+4. Analog Signal Generation
+The sensor converts energy into analog electrical signals.
+5. Analog-to-Digital Converter (ADC)
+Converts analog signals into digital pixel values.
+6. Digital Image Formation
+The output is a matrix of intensity values representing the image.
+
+# Algorithm
+ 1.	Import required libraries.
+ 2.	Read the input image using image acquisition function.
+ 3.	Display the acquired image.
+ 4.	Wait for a key press and close display window.
